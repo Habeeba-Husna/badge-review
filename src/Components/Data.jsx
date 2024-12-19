@@ -14,7 +14,7 @@ function Data() {
       {data.map((post)=>(
         <li key={post.id}>
             <h3>{post.title}</h3>
-            <p>{post.body}</p>
+            {/* <p>{post.body}</p> */}
             <Link to={`/post/${post.id}`}>View</Link>
         </li>
 

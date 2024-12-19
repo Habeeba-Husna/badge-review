@@ -9,7 +9,7 @@ function Details() {
   const {data}=useContext(DataContext);
 
   const post=data.find((p)=>p.id===parseInt(id));
-
+ 
   
   return (
     <div>
