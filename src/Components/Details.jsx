@@ -11,14 +11,14 @@ function Details() {
   const post=data.find((p)=>p.id===parseInt(id));
 
   if (!post){
-    return <p>Post not found</p>; 
+    return <p>Posts not found here</p>; 
   }
 
   return (
     <div>
       <h2>{post.title}</h2>
       <p>{post.body}</p>
-      <Link to="/">Back to Post</Link>
+      <Link to="/">go Back</Link>
     </div>
   );
 }
