@@ -10,9 +10,7 @@ function Details() {
 
   const post=data.find((p)=>p.id===parseInt(id));
 
-  // if (!post){
-  //   return <p>Posts not found here</p>; 
-  // }
+  
 
   return (
     <div>
