@@ -10,7 +10,7 @@ function Data() {
   return (
     <div>
       <h1>Json datas</h1>
-      <ul>
+      <ol>
       {data.map((post)=>(
         <li key={post.id}>
             <h3>{post.title}</h3>
@@ -21,7 +21,7 @@ function Data() {
 
 ))}
 
-      </ul>
+      </ol>
       
     </div>
   )
