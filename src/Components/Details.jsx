@@ -11,12 +11,11 @@ function Details() {
   const post=data.find((p)=>p.id===parseInt(id));
 
   
-
   return (
     <div>
       <h2>{post.title}</h2>
       <p>{post.body}</p>
-      <Link to="/">go Back</Link>
+      <Link to="/">Back</Link>
     </div>
   );
 }

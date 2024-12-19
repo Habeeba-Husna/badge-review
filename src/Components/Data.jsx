@@ -9,13 +9,13 @@ function Data() {
     if(loading) return(<p>loading...</p>)
   return (
     <div>
-      <h2>Json datas</h2>
+      <h1>Json datas</h1>
       <ul>
       {data.map((post)=>(
         <li key={post.id}>
             <h3>{post.title}</h3>
             <p>{post.body}</p>
-            <Link to={`/post/${post.id}`}>View Details</Link>
+            <Link to={`/post/${post.id}`}>View</Link>
         </li>
 
 
